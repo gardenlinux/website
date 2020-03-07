@@ -1,8 +1,8 @@
 ---
-title: Microsoft Azure
-weight: 51
+title: Google Cloud Platform
+weight: 52
 disableToc: true
-contentJson: https://repo.gardenlinux.io/images/azure/
+contentJson: https://repo.gardenlinux.io/images/gcp/
 ---
 
 {{% notice warning %}}

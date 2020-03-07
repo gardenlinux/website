@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+
+{{ .Content }}
+
+<h2 id="download-title" url="{{.Params.ContentJson}}">Download</h2>
+<div id="downloads"></div>
+
+<script type="text/javascript" src="/js/vue.js"></script>
+
+<footer class="footline">
+	{{with .Params.LastModifierDisplayName}}
+	    <i class='fas fa-user'></i> <a href="mailto:{{ $.Params.LastModifierEmail }}">{{ . }}</a> {{with $.Date}} <i class='fas fa-calendar'></i> {{ .Format "02/01/2006" }}{{end}}
+	    </div>
+	{{end}}
+</footer>
+
+{{ partial "footer.html" . }}

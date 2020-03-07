@@ -1,6 +1,6 @@
-baseURL = "https://linux.onmetal.de"
+baseURL = "https://gardenlinux.io"
 languageCode = "en-us"
-title = "Gardener Linux"
+title = "Garden Linux"
 theme = "learn"
 
 [params]
@@ -11,15 +11,35 @@ themeVariant = "green"
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
+[markup.goldmark.renderer]
+unsafe= true
 
 [Languages]
 [Languages.en]
-title = "SAP's customized Debian distribution"
+title = "Gardener's customized Debian distribution"
 weight = 1
 languageName = "English"
 
+#[[Languages.en.menu.shortcuts]]
+#name = "<i class='fas fa-fw fa-cloud-download-alt'></i> Garden Linux Fileserver"
+#identifier = "gr"
+#url = "https://repo.gardenlinux.io"
+#weight = 5
+
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+name = "<i class='fab fa-fw fa-github'></i> GitHub Repo"
 identifier = "ds"
-url = "https://github.com/gardener/gardener-linux"
+url = "https://github.com/gardenlinux/gardenlinux"
 weight = 10
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-slack'></i> Slack Channel"
+identifier = "gs"
+url = "https://sapicn.slack.com/archives/CV1SWRHR6"
+weight = 20
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-link'></i> Gardener Homepage"
+identifier = "gp"
+url = "https://gardener.cloud"
+weight = 30

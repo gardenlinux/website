@@ -1,0 +1,20 @@
+{
+    "baremetal": [
+        {
+            "flavor": "baremetal",
+            "version": "bullseye",
+            "build": "v11-20200815-1",
+            "format": "pxe",
+            "size": "243 MB",
+            "url": "https://storage.onmetal.de/gardenlinux/images/baremetal/foobar.img"
+        },
+        {
+            "flavor": "baremetal",
+            "version": "bullseye",
+            "build": "v11-20200815-1",
+            "format": "iso",
+            "size": "312 MB",
+            "url": "https://storage.onmetal.de/gardenlinux/images/baremetal/foobar2.iso"
+        }
+    ]
+}

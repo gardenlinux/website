@@ -1,2 +1,0 @@
-Gardener Linux for vSphere
-=====================

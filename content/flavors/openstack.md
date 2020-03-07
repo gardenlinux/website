@@ -1,8 +1,8 @@
 ---
-title: Microsoft Azure
-weight: 51
+title: OpenStack
+weight: 100
 disableToc: true
-contentJson: https://repo.gardenlinux.io/images/azure/
+contentJson: https://repo.gardenlinux.io/images/openstack/
 ---
 
 {{% notice warning %}}
