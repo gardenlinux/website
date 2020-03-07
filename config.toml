@@ -1,0 +1,25 @@
+baseURL = "https://linux.onmetal.de"
+languageCode = "en-us"
+title = "Gardener Linux"
+theme = "learn"
+
+[params]
+disableInlineCopyToClipBoard = true
+disableNextPrev = true
+themeVariant = "green"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+
+[Languages]
+[Languages.en]
+title = "SAP's customized Debian distribution"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+identifier = "ds"
+url = "https://github.com/gardener/gardener-linux"
+weight = 10
