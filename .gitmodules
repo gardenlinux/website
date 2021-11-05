@@ -1,3 +1,6 @@
 [submodule "themes/learn"]
 	path = themes/learn
 	url = https://github.com/matcornic/hugo-theme-learn
+[submodule "deps/gardenlinux"]
+	path = deps/gardenlinux
+	url = git@github.com:gardenlinux/gardenlinux.git
