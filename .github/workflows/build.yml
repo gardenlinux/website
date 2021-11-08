@@ -30,7 +30,7 @@ jobs:
         run: make
 
       - name: Setup GCP config
-        uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
+        uses: google-github-actions/setup-gcloud@master
         with:
           version: '276.0.0'
           service_account_email: ${{ secrets.GCP_SA_EMAIL }}
