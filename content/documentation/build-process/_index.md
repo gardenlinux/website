@@ -15,4 +15,3 @@ graph LR;
     C -->|No| E[Discard]
 {{< /mermaid >}}
 
-https://themes.gohugo.io//theme/hugo-theme-learn/en/shortcodes/mermaid/
